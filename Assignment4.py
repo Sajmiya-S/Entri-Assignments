@@ -13,12 +13,7 @@ class BankAccount:
 class Bank:
     def __init__(self):
         self.accounts = []
-        while self.accounts != []:
-            num = 1
-            for ac in self.accounts:
-                print(f'Account No:{num}\tAccount Holder:{num.name}\t')
-                num += 1
-
+        
     def create_account(self,name):
         self.accounts.append(BankAccount(name))
         print(f'Bank Account created for {name}')
@@ -74,4 +69,5 @@ def main():
             print('Invalid choice')
             
 main()
+
 
