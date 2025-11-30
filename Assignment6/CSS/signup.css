@@ -1,0 +1,49 @@
+body{
+    background-image: url(../Images/um.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div{
+    background-color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    padding: 50px;
+    /* border: 5px solid rgb(17, 4, 82); */
+    border-radius: 10px;
+    font-size: large;
+}
+label{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+input{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width:300px;
+}
+input[type='radio'],input[type='checkbox']{
+    width:15px;
+}
+button{
+    background-color: rgb(113, 2, 115);
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    
+}
+select{
+    margin:10px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
