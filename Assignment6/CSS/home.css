@@ -1,0 +1,13 @@
+body{
+    background-image: url(../Images/in.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: larger;
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
