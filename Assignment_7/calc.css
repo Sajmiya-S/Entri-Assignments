@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+.main{
+    min-height: 800px;
+    width: 100%;
+    background-color: linen;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+.calc{
+    background-color: cornsilk;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+    border: 2px solid black;
+}
+input{
+    background-color: mintcream;
+    height: 45px;
+    width: 280px;
+    border-radius: 5px;
+    font-size: x-large;
+    margin: 10px;
+}
+.buttons{
+    background-color: seashell;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+button:hover{
+    background-color: oldlace;
+}
+#clear{
+    background-color: lightcoral;
+}
+#clear:hover{
+    background-color: tomato;
+}
+#delete{
+    background-color: lightcoral;
+}
+#delete:hover{
+    background-color: tomato;
+}
+#equal{
+    width: 125px;
+    background-color: orchid;
+}
+#equal:hover{
+    background-color: mediumorchid;
+}
+
+.row1,.row2,.row3,.row4,.row5{
+    padding: 2px;
+}
+
+.number{
+    background-color: lavender;
+}
+.number:hover{
+    background-color: thistle;
+}
+.operator{
+    background-color: peachpuff;
+}
+.operator:hover{
+    background-color: salmon;
+}
